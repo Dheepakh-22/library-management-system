@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongodb": "^5.1.0",
+    "mongoose": "^7.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app",
+    "lint": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
